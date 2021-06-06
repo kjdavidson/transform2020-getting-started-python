@@ -59,3 +59,11 @@ You can then access this environment inside a jupyter notebook using one of two 
 2. By running `python -m ipykernel install --user --name transform2020` after creating the `transform2020` environment and then running `jupyter notebook` with either `base` or `transform2020` activated.
 
 In both cases you then need to select the `transform2020` environment by selecting `Kernel>Change kernel>kernel name` in the jupyter notebook browser window.
+
+### KD Notes June 2021 - set up
+
+`conda create --name transform2020 python=3.7`
+`conda activate transform2020`
+`pip install welly segyio bruges`
+`conda install -c conda-forge notebook`
+`conda install -c conda-forge nb_conda_kernels`
